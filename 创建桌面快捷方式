@@ -1,0 +1,40 @@
+
+# 在linux中为应用程序创建桌面快捷方式启动
+
+## 1.先创建文件
+```
+touch 任意程序名.desktop
+```
+
+##2.编辑文件
+```
+vim 任意程序名.desktop
+```
+  粘贴以下文档
+```
+Name：程序的名称，也将在启动器上显示。
+Comment：对程序的简短说明，也将显示在启动器上
+Exec：程序的可执行文件路径。
+Icon：程序的图标路径。
+Terminal：表示该程序是否在终端中运行。如果设置为true，则会在终端中启动程序。
+Type：表示.desktop文件的类型，这里是Application，表示一个应用程序。
+Categories：程序所属的类别，以分号分隔。例如，Development;IDE表示该程序是一个IDE开发工具。
+```
+
+# 例子
+
+```
+touch clion.desktop && vim clion.desktop
+```
+
+```
+[Desktop Entry]
+Name=CLion
+Comment=IntelliJ CLion
+Exec=/opt/clion-2022.2.4/bin/clion.sh
+Icon=/opt/clion-2022.2.4/bin/clion.png
+Terminal=true
+Type=Application
+Categories=Development;IDE;
+
+```
