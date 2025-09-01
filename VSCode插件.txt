@@ -1,0 +1,3 @@
+统计行数:
+VSCode Counter
+VSCodeCounter: Count lines in directory

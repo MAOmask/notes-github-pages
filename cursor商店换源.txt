@@ -1,0 +1,13 @@
+C:\Program Files\cursor\resources\app\product.json
+
+将https://marketplace.cursorapi.com改为https://marketplace.visualstudio.com。
+
+
+例子：
+  "extensionsGallery": {
+    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
+    "itemUrl": "https://marketplace.visualstudio.com/items",
+    "controlUrl": "",
+    "recommendationsUrl": ""
+  }

@@ -1,0 +1,3 @@
+´ò°üÃüÁî£º
+pyinstaller -F -i frontend\static\img\password-box.ico --add-data "frontend\templates;frontend\templates" --add-data "frontend\static;frontend\static" --add-data "backend\pwned-check.exe;backend" .\app.py
+
