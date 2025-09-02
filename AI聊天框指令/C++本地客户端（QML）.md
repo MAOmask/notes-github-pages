@@ -1,106 +1,106 @@
-ÖÐÎÄ»Ø´ð£º
+ä¸­æ–‡å›žç­”ï¼š
 
-Çë°ïÎÒ¿ª·¢Ò»¸ö½áºÏC++¸ßÐÔÄÜÓëQMLÏÖ´ú»¯½çÃæµÄ×ÀÃæÓ¦ÓÃ£¬¾ßÓÐÒÔÏÂ»ù´¡ÌØÐÔ£º
+è¯·å¸®æˆ‘å¼€å‘ä¸€ä¸ªç»“åˆC++é«˜æ€§èƒ½ä¸ŽQMLçŽ°ä»£åŒ–ç•Œé¢çš„æ¡Œé¢åº”ç”¨ï¼Œå…·æœ‰ä»¥ä¸‹åŸºç¡€ç‰¹æ€§ï¼š
 
-**Èí¼þÃû³Æ£º** ´ý¶¨  
-**Èí¼þ¹¦ÄÜ£º** ×ÔÓÉ·¢»Ó£¨ÊÊÓÃÓÚ¸÷ÀàÓ¦ÓÃ³¡¾°£©
+**è½¯ä»¶åç§°ï¼š** å¾…å®š  
+**è½¯ä»¶åŠŸèƒ½ï¼š** è‡ªç”±å‘æŒ¥ï¼ˆé€‚ç”¨äºŽå„ç±»åº”ç”¨åœºæ™¯ï¼‰
 
-## 1. »ìºÏ¼Ü¹¹Éè¼Æ
+## 1. æ··åˆæž¶æž„è®¾è®¡
 
-- **Ç°¶Ë½çÃæ£º** Ê¹ÓÃQML´´½¨ÏÖ´ú»¯ÉùÃ÷Ê½UI£¬Ö§³ÖMaterial DesignºÍÁ÷³©¶¯»­
-- **ºó¶ËÂß¼­£º** Ê¹ÓÃC++ÊµÏÖºËÐÄ¹¦ÄÜ£¬Ìá¹©¸ßÐÔÄÜ¼ÆËãºÍÊý¾Ý´¦ÀíÄÜÁ¦
-- **Í¨ÐÅÇÅ½Ó£º** Ê¹ÓÃQtµÄÊôÐÔÏµÍ³¡¢ÐÅºÅ²Û»úÖÆºÍQMLÉÏÏÂÎÄÊµÏÖC++ÓëQMLµÄË«ÏòÎÞ·ìÍ¨ÐÅ
-- **¿Í»§¶Ë¿ò¼Ü£º** Ê¹ÓÃQt 6.7.3¿ò¼Ü×÷ÎªÓ¦ÓÃ»ù´¡
-- **¿ª·¢»·¾³£º** Windows 10, Qt6.7.3, MSVC 2019_64
+- **å‰ç«¯ç•Œé¢ï¼š** ä½¿ç”¨QMLåˆ›å»ºçŽ°ä»£åŒ–å£°æ˜Žå¼UIï¼Œæ”¯æŒMaterial Designå’Œæµç•…åŠ¨ç”»
+- **åŽç«¯é€»è¾‘ï¼š** ä½¿ç”¨C++å®žçŽ°æ ¸å¿ƒåŠŸèƒ½ï¼Œæä¾›é«˜æ€§èƒ½è®¡ç®—å’Œæ•°æ®å¤„ç†èƒ½åŠ›
+- **é€šä¿¡æ¡¥æŽ¥ï¼š** ä½¿ç”¨Qtçš„å±žæ€§ç³»ç»Ÿã€ä¿¡å·æ§½æœºåˆ¶å’ŒQMLä¸Šä¸‹æ–‡å®žçŽ°C++ä¸ŽQMLçš„åŒå‘æ— ç¼é€šä¿¡
+- **å®¢æˆ·ç«¯æ¡†æž¶ï¼š** ä½¿ç”¨Qt 6.7.3æ¡†æž¶ä½œä¸ºåº”ç”¨åŸºç¡€
+- **å¼€å‘çŽ¯å¢ƒï¼š** Windows 10, Qt6.7.3, MSVC 2019_64
 
-## 2. ¹¦ÄÜÓëÐÔÄÜÄ¿±ê
+## 2. åŠŸèƒ½ä¸Žæ€§èƒ½ç›®æ ‡
 
-- ÀûÓÃC++´¦ÀíÐÔÄÜÃô¸ÐÈÎÎñ¡¢ºËÐÄËã·¨ºÍÏµÍ³×ÊÔ´·ÃÎÊ
-- ÀûÓÃQML´´½¨ÏìÓ¦Ê½¡¢¶¯»­·á¸»µÄÏÖ´ú»¯ÓÃ»§½çÃæ
-- ÎÞ·ì¼¯³ÉÁ½ÖÖ¼¼Êõ£¬ÓÃ»§¸ÐÖªÎªµ¥Ò»Ó¦ÓÃ
-- Ö§³Ö´°¿Úµ÷Õû´óÐ¡¡¢×îÐ¡»¯ºÍ¹Ø±Õ¹¦ÄÜ
-- ÊµÏÖÊý¾ÝµÄÊµÊ±Ë«Ïò°ó¶¨£¨C++Êý¾Ý±ä»¯×Ô¶¯¸üÐÂUI£¬UI²Ù×÷×Ô¶¯´¥·¢C++Âß¼­£©
+- åˆ©ç”¨C++å¤„ç†æ€§èƒ½æ•æ„Ÿä»»åŠ¡ã€æ ¸å¿ƒç®—æ³•å’Œç³»ç»Ÿèµ„æºè®¿é—®
+- åˆ©ç”¨QMLåˆ›å»ºå“åº”å¼ã€åŠ¨ç”»ä¸°å¯Œçš„çŽ°ä»£åŒ–ç”¨æˆ·ç•Œé¢
+- æ— ç¼é›†æˆä¸¤ç§æŠ€æœ¯ï¼Œç”¨æˆ·æ„ŸçŸ¥ä¸ºå•ä¸€åº”ç”¨
+- æ”¯æŒçª—å£è°ƒæ•´å¤§å°ã€æœ€å°åŒ–å’Œå…³é—­åŠŸèƒ½
+- å®žçŽ°æ•°æ®çš„å®žæ—¶åŒå‘ç»‘å®šï¼ˆC++æ•°æ®å˜åŒ–è‡ªåŠ¨æ›´æ–°UIï¼ŒUIæ“ä½œè‡ªåŠ¨è§¦å‘C++é€»è¾‘ï¼‰
 
-## 3. ÏîÄ¿½á¹¹×éÖ¯(½ö×ö²Î¿¼£¬¾ßÌåÏîÄ¿¿É×öÊÊµ±ÐÞ¸Ä)
+## 3. é¡¹ç›®ç»“æž„ç»„ç»‡(ä»…åšå‚è€ƒï¼Œå…·ä½“é¡¹ç›®å¯åšé€‚å½“ä¿®æ”¹)
 
 Demo/
-©À©¤©¤ CMakeLists.txt                   # Ö÷CMakeÅäÖÃÎÄ¼þ
-©¸©¤©¤ src/
-    ©À©¤©¤ main.cpp                     # Ö÷³ÌÐòÈë¿Ú
-    ©À©¤©¤ main_window.cpp              # Ö÷´°¿ÚÊµÏÖ
-    ©À©¤©¤ main_window.h                # Ö÷´°¿ÚÍ·ÎÄ¼þ
-    ©À©¤©¤ data/                        # ×ÊÔ´Êý¾Ý
-    ©À©¤©¤ core/                        # C++ºó¶ËºËÐÄ¹¦ÄÜÄ£¿é
-    ©À©¤©¤ models/                      # C++Êý¾ÝÄ£ÐÍ£¨¼Ì³ÐQAbstractListModelµÈ£©
-    ©¦   ©À©¤©¤ data_model.h             # Êý¾ÝÄ£ÐÍÍ·ÎÄ¼þ
-    ©¦   ©¸©¤©¤ data_model.cpp           # Êý¾ÝÄ£ÐÍÊµÏÖ
-    ©À©¤©¤ controllers/                 # C++¿ØÖÆÆ÷Àà
-    ©¦   ©À©¤©¤ app_controller.h         # Ó¦ÓÃ¿ØÖÆÆ÷Í·ÎÄ¼þ
-    ©¦   ©¸©¤©¤ app_controller.cpp       # Ó¦ÓÃ¿ØÖÆÆ÷ÊµÏÖ
-    ©À©¤©¤ resources.qrc                # Qt×ÊÔ´ÎÄ¼þ
-    ©¸©¤©¤ qml/                         # QMLÇ°¶Ë×ÊÔ´
-        ©À©¤©¤ main.qml                 # Ö÷QMLÎÄ¼þ
-        ©À©¤©¤ components/              # QML×é¼þÄ¿Â¼
-        ©¦   ©À©¤©¤ CustomButton.qml     # ×Ô¶¨Òå°´Å¥×é¼þ
-        ©¦   ©À©¤©¤ DataViewer.qml       # Êý¾ÝÕ¹Ê¾×é¼þ
-        ©¦   ©¸©¤©¤ NavigationPanel.qml  # µ¼º½Ãæ°å×é¼þ
-        ©À©¤©¤ pages/                   # QMLÒ³ÃæÄ¿Â¼
-        ©¦   ©À©¤©¤ HomePage.qml         # Ö÷Ò³Ãæ
-        ©¦   ©À©¤©¤ SettingsPage.qml     # ÉèÖÃÒ³Ãæ
-        ©¦   ©¸©¤©¤ AboutPage.qml        # ¹ØÓÚÒ³Ãæ
-        ©¸©¤©¤ styles/                  # QMLÑùÊ½Ä¿Â¼
-            ©À©¤©¤ AppStyle.qml         # Ó¦ÓÃÑùÊ½ÅäÖÃ
-            ©¸©¤©¤ Colors.qml           # ÑÕÉ«Ö÷ÌâÅäÖÃ
+â”œâ”€â”€ CMakeLists.txt                   # ä¸»CMakeé…ç½®æ–‡ä»¶
+â””â”€â”€ src/
+    â”œâ”€â”€ main.cpp                     # ä¸»ç¨‹åºå…¥å£
+    â”œâ”€â”€ main_window.cpp              # ä¸»çª—å£å®žçŽ°
+    â”œâ”€â”€ main_window.h                # ä¸»çª—å£å¤´æ–‡ä»¶
+    â”œâ”€â”€ data/                        # èµ„æºæ•°æ®
+    â”œâ”€â”€ core/                        # C++åŽç«¯æ ¸å¿ƒåŠŸèƒ½æ¨¡å—
+    â”œâ”€â”€ models/                      # C++æ•°æ®æ¨¡åž‹ï¼ˆç»§æ‰¿QAbstractListModelç­‰ï¼‰
+    â”‚   â”œâ”€â”€ data_model.h             # æ•°æ®æ¨¡åž‹å¤´æ–‡ä»¶
+    â”‚   â””â”€â”€ data_model.cpp           # æ•°æ®æ¨¡åž‹å®žçŽ°
+    â”œâ”€â”€ controllers/                 # C++æŽ§åˆ¶å™¨ç±»
+    â”‚   â”œâ”€â”€ app_controller.h         # åº”ç”¨æŽ§åˆ¶å™¨å¤´æ–‡ä»¶
+    â”‚   â””â”€â”€ app_controller.cpp       # åº”ç”¨æŽ§åˆ¶å™¨å®žçŽ°
+    â”œâ”€â”€ resources.qrc                # Qtèµ„æºæ–‡ä»¶
+    â””â”€â”€ qml/                         # QMLå‰ç«¯èµ„æº
+        â”œâ”€â”€ main.qml                 # ä¸»QMLæ–‡ä»¶
+        â”œâ”€â”€ components/              # QMLç»„ä»¶ç›®å½•
+        â”‚   â”œâ”€â”€ CustomButton.qml     # è‡ªå®šä¹‰æŒ‰é’®ç»„ä»¶
+        â”‚   â”œâ”€â”€ DataViewer.qml       # æ•°æ®å±•ç¤ºç»„ä»¶
+        â”‚   â””â”€â”€ NavigationPanel.qml  # å¯¼èˆªé¢æ¿ç»„ä»¶
+        â”œâ”€â”€ pages/                   # QMLé¡µé¢ç›®å½•
+        â”‚   â”œâ”€â”€ HomePage.qml         # ä¸»é¡µé¢
+        â”‚   â”œâ”€â”€ SettingsPage.qml     # è®¾ç½®é¡µé¢
+        â”‚   â””â”€â”€ AboutPage.qml        # å…³äºŽé¡µé¢
+        â””â”€â”€ styles/                  # QMLæ ·å¼ç›®å½•
+            â”œâ”€â”€ AppStyle.qml         # åº”ç”¨æ ·å¼é…ç½®
+            â””â”€â”€ Colors.qml           # é¢œè‰²ä¸»é¢˜é…ç½®
 
-## 4. ¼¼ÊõÊµÏÖÖØµã
+## 4. æŠ€æœ¯å®žçŽ°é‡ç‚¹
 
-### C++¶ËÊµÏÖ
-- Ê¹ÓÃQGuiApplication×÷ÎªÓ¦ÓÃ»ù´¡£¬Í¨¹ýQQmlApplicationEngine¼ÓÔØQML
-- ´´½¨C++Êý¾ÝÄ£ÐÍÀà£¬¼Ì³ÐQAbstractListModel»òQObject£¬È·±£¸ßÐÔÄÜ´¦Àí
-- ÊµÏÖQObjectÅÉÉúÀà£¬Ê¹ÓÃQ_PROPERTY¡¢Q_INVOKABLE¡¢²ÛºÍÐÅºÅ»úÖÆ±©Â¶¸øQML
-- Ê¹ÓÃqmlRegisterType×¢²áC++ÀàÐÍµ½QML»·¾³
-- Ê¹ÓÃQQmlContext::setContextProperty×¢²áC++¶ÔÏóÊµÀýµ½QML
-- ÓÅ»¯C++´úÂëÒÔÈ·±£¶àÏß³ÌÐÔÄÜºÍµÍÑÓ³ÙÏìÓ¦
+### C++ç«¯å®žçŽ°
+- ä½¿ç”¨QGuiApplicationä½œä¸ºåº”ç”¨åŸºç¡€ï¼Œé€šè¿‡QQmlApplicationEngineåŠ è½½QML
+- åˆ›å»ºC++æ•°æ®æ¨¡åž‹ç±»ï¼Œç»§æ‰¿QAbstractListModelæˆ–QObjectï¼Œç¡®ä¿é«˜æ€§èƒ½å¤„ç†
+- å®žçŽ°QObjectæ´¾ç”Ÿç±»ï¼Œä½¿ç”¨Q_PROPERTYã€Q_INVOKABLEã€æ§½å’Œä¿¡å·æœºåˆ¶æš´éœ²ç»™QML
+- ä½¿ç”¨qmlRegisterTypeæ³¨å†ŒC++ç±»åž‹åˆ°QMLçŽ¯å¢ƒ
+- ä½¿ç”¨QQmlContext::setContextPropertyæ³¨å†ŒC++å¯¹è±¡å®žä¾‹åˆ°QML
+- ä¼˜åŒ–C++ä»£ç ä»¥ç¡®ä¿å¤šçº¿ç¨‹æ€§èƒ½å’Œä½Žå»¶è¿Ÿå“åº”
 
-### QML¶ËÊµÏÖ
-- Ê¹ÓÃÏÖ´úQMLÓï·¨¹¹½¨ÉùÃ÷Ê½ÏìÓ¦Ê½½çÃæ
-- ÀûÓÃQtQuick.Controls 2´´½¨Material Design·ç¸ñ×é¼þ
-- Ê¹ÓÃState¡¢Transition¡¢AnimationÊµÏÖÁ÷³©µÄ½çÃæ¶¯»­
-- Í¨¹ýÊôÐÔ°ó¶¨ºÍÐÅºÅ²ÛÁ¬½ÓC++ºó¶Ë
-- Ê¹ÓÃLoader¡¢StackViewÊµÏÖÒ³Ãæµ¼º½ºÍ×é¼þ¸´ÓÃ
-- ÀûÓÃQtQuick.Layouts´´½¨×ÔÊÊÓ¦²¼¾Ö
+### QMLç«¯å®žçŽ°
+- ä½¿ç”¨çŽ°ä»£QMLè¯­æ³•æž„å»ºå£°æ˜Žå¼å“åº”å¼ç•Œé¢
+- åˆ©ç”¨QtQuick.Controls 2åˆ›å»ºMaterial Designé£Žæ ¼ç»„ä»¶
+- ä½¿ç”¨Stateã€Transitionã€Animationå®žçŽ°æµç•…çš„ç•Œé¢åŠ¨ç”»
+- é€šè¿‡å±žæ€§ç»‘å®šå’Œä¿¡å·æ§½è¿žæŽ¥C++åŽç«¯
+- ä½¿ç”¨Loaderã€StackViewå®žçŽ°é¡µé¢å¯¼èˆªå’Œç»„ä»¶å¤ç”¨
+- åˆ©ç”¨QtQuick.Layoutsåˆ›å»ºè‡ªé€‚åº”å¸ƒå±€
 
-### Í¨ÐÅ»úÖÆ
-- C++´¥·¢ÊÂ¼þ ¡ú QObjectÐÅºÅ ¡ú QMLÐÅºÅ´¦ÀíÆ÷
-- QMLµ÷ÓÃ ¡ú Q_INVOKABLEº¯Êý»òÊôÐÔ ¡ú C++²Ûº¯Êý
-- Ê¹ÓÃQ_PROPERTYÊµÏÖÊý¾ÝË«Ïò°ó¶¨
-- Í¨¹ýQAbstractListModelÎªQMLÌá¹©ÁÐ±íÊý¾ÝÄ£ÐÍ
-- Ê¹ÓÃQVariant¡¢QVariantMap×÷ÎªÊý¾Ý½»»»¸ñÊ½
+### é€šä¿¡æœºåˆ¶
+- C++è§¦å‘äº‹ä»¶ â†’ QObjectä¿¡å· â†’ QMLä¿¡å·å¤„ç†å™¨
+- QMLè°ƒç”¨ â†’ Q_INVOKABLEå‡½æ•°æˆ–å±žæ€§ â†’ C++æ§½å‡½æ•°
+- ä½¿ç”¨Q_PROPERTYå®žçŽ°æ•°æ®åŒå‘ç»‘å®š
+- é€šè¿‡QAbstractListModelä¸ºQMLæä¾›åˆ—è¡¨æ•°æ®æ¨¡åž‹
+- ä½¿ç”¨QVariantã€QVariantMapä½œä¸ºæ•°æ®äº¤æ¢æ ¼å¼
 
-## 5. ÒÀÀµ¹ÜÀí
+## 5. ä¾èµ–ç®¡ç†
 
-- Qt6 Core, Gui - »ù´¡Ó¦ÓÃ¹¦ÄÜ
-- Qt6 Quick, QuickControls2 - QML½çÃæºÍ¿Ø¼þ
-- Qt6 Qml - QMLÒýÇæÖ§³Ö
-- ¿ÉÑ¡£ºQt6 Charts - Í¼±í×é¼þ
-- ¿ÉÑ¡£ºQt6 Multimedia - ¶àÃ½ÌåÖ§³Ö
-- ¿ÉÑ¡£ºÆäËûQtÄ£¿é£¨ÈçNetwork¡¢SqlµÈ£©
-- ¿ÉÑ¡£ºµÚÈý·½C++¿â£¨Èçnlohmann/json¡¢boostµÈ£©
+- Qt6 Core, Gui - åŸºç¡€åº”ç”¨åŠŸèƒ½
+- Qt6 Quick, QuickControls2 - QMLç•Œé¢å’ŒæŽ§ä»¶
+- Qt6 Qml - QMLå¼•æ“Žæ”¯æŒ
+- å¯é€‰ï¼šQt6 Charts - å›¾è¡¨ç»„ä»¶
+- å¯é€‰ï¼šQt6 Multimedia - å¤šåª’ä½“æ”¯æŒ
+- å¯é€‰ï¼šå…¶ä»–Qtæ¨¡å—ï¼ˆå¦‚Networkã€Sqlç­‰ï¼‰
+- å¯é€‰ï¼šç¬¬ä¸‰æ–¹C++åº“ï¼ˆå¦‚nlohmann/jsonã€boostç­‰ï¼‰
 
-## 6. ¿ª·¢Óë²¿Êð×¢ÒâÊÂÏî
+## 6. å¼€å‘ä¸Žéƒ¨ç½²æ³¨æ„äº‹é¡¹
 
-- Ê¹ÓÃCMake¹ÜÀí¹¹½¨¹ý³Ì£¬È·±£¿çÆ½Ì¨¼æÈÝÐÔ
-- Ê¹ÓÃwindeployqt¹¤¾ß²¿ÊðËùÓÐ±ØÒªÒÀÀµ
-- È·±£QML×ÊÔ´ÎÄ¼þÕýÈ·±àÒëµ½qrcÖÐ
-- Ê¹ÓÃMSVC±àÒëÆ÷ÓÅ»¯C++´úÂëÐÔÄÜ
-- ÊµÏÖ´íÎó´¦ÀíºÍÈÕÖ¾ÏµÍ³£¬±ãÓÚµ÷ÊÔ
-- ÎªQMLÉèÖÃÊÊµ±µÄµ¼ÈëÂ·¾¶ºÍÄ£¿é°æ±¾
+- ä½¿ç”¨CMakeç®¡ç†æž„å»ºè¿‡ç¨‹ï¼Œç¡®ä¿è·¨å¹³å°å…¼å®¹æ€§
+- ä½¿ç”¨windeployqtå·¥å…·éƒ¨ç½²æ‰€æœ‰å¿…è¦ä¾èµ–
+- ç¡®ä¿QMLèµ„æºæ–‡ä»¶æ­£ç¡®ç¼–è¯‘åˆ°qrcä¸­
+- ä½¿ç”¨MSVCç¼–è¯‘å™¨ä¼˜åŒ–C++ä»£ç æ€§èƒ½
+- å®žçŽ°é”™è¯¯å¤„ç†å’Œæ—¥å¿—ç³»ç»Ÿï¼Œä¾¿äºŽè°ƒè¯•
+- ä¸ºQMLè®¾ç½®é€‚å½“çš„å¯¼å…¥è·¯å¾„å’Œæ¨¡å—ç‰ˆæœ¬
 
-## 7. QMLÌØÉ«¹¦ÄÜÊµÏÖ
+## 7. QMLç‰¹è‰²åŠŸèƒ½å®žçŽ°
 
-### ¶¯»­ºÍ¹ý¶ÉÐ§¹û
+### åŠ¨ç”»å’Œè¿‡æ¸¡æ•ˆæžœ
 ```qml
-// Ê¾Àý£ºÒ³ÃæÇÐ»»¶¯»­
+// ç¤ºä¾‹ï¼šé¡µé¢åˆ‡æ¢åŠ¨ç”»
 StackView {
     pushEnter: Transition {
         PropertyAnimation { property: "opacity"; from: 0; to: 1; duration: 300 }
@@ -111,9 +111,9 @@ StackView {
 }
 ```
 
-### Ö÷ÌâºÍÑùÊ½ÏµÍ³
+### ä¸»é¢˜å’Œæ ·å¼ç³»ç»Ÿ
 ```qml
-// Ê¾Àý£ºÖ÷ÌâÅäÖÃ
+// ç¤ºä¾‹ï¼šä¸»é¢˜é…ç½®
 QtObject {
     property color primaryColor: "#2196F3"
     property color accentColor: "#FF4081"
@@ -121,11 +121,11 @@ QtObject {
 }
 ```
 
-### Êý¾Ý°ó¶¨
+### æ•°æ®ç»‘å®š
 ```qml
-// Ê¾Àý£ºÓëC++Ä£ÐÍ°ó¶¨
+// ç¤ºä¾‹ï¼šä¸ŽC++æ¨¡åž‹ç»‘å®š
 ListView {
-    model: dataModel  // C++ÖÐ×¢²áµÄÄ£ÐÍ
+    model: dataModel  // C++ä¸­æ³¨å†Œçš„æ¨¡åž‹
     delegate: ItemDelegate {
         text: model.name
         onClicked: appController.handleItemClick(model.id)
@@ -133,19 +133,19 @@ ListView {
 }
 ```
 
-## 8. Ó¦ÓÃ³¡¾°Ê¾Àý£¨¿É×ÔÓÉÑ¡Ôñ»òÀ©Õ¹£©
+## 8. åº”ç”¨åœºæ™¯ç¤ºä¾‹ï¼ˆå¯è‡ªç”±é€‰æ‹©æˆ–æ‰©å±•ï¼‰
 
-- **Êý¾Ý·ÖÎö¹¤¾ß**£ºC++´¦Àí´óÊý¾Ý¼ÆËã£¬QMLÕ¹Ê¾½»»¥Ê½Í¼±íºÍÏÖ´ú»¯ÒÇ±í°å
-- **Ã½Ìå´¦ÀíÓ¦ÓÃ**£ºC++½øÐÐÒôÊÓÆµ±à½âÂë£¬QMLÌá¹©Material Design·ç¸ñµÄ¿ØÖÆ½çÃæ
-- **´´ÒâÉè¼ÆÈí¼þ**£ºC++´¦ÀíÍ¼ÏñËã·¨£¬QMLÌá¹©Á÷³©µÄÉè¼Æ»­²¼ºÍ¹¤¾ßÀ¸
-- **¿ª·¢¸¨Öú¹¤¾ß**£ºC++·ÃÎÊÏµÍ³×ÊÔ´£¬QMLÕ¹Ê¾ÏÖ´ú»¯µÄ¿ª·¢Õß½çÃæ
-- **ÓÎÏ·¿ª·¢»·¾³**£ºC++´¦ÀíÓÎÏ·ÒýÇæÂß¼­£¬QMLÌá¹©¿ÉÊÓ»¯±à¼­Æ÷½çÃæ
-- **°ì¹«×Ô¶¯»¯¹¤¾ß**£ºC++´¦ÀíÎÄµµ½âÎö£¬QMLÌá¹©ÏìÓ¦Ê½±à¼­ÊÓÍ¼
+- **æ•°æ®åˆ†æžå·¥å…·**ï¼šC++å¤„ç†å¤§æ•°æ®è®¡ç®—ï¼ŒQMLå±•ç¤ºäº¤äº’å¼å›¾è¡¨å’ŒçŽ°ä»£åŒ–ä»ªè¡¨æ¿
+- **åª’ä½“å¤„ç†åº”ç”¨**ï¼šC++è¿›è¡ŒéŸ³è§†é¢‘ç¼–è§£ç ï¼ŒQMLæä¾›Material Designé£Žæ ¼çš„æŽ§åˆ¶ç•Œé¢
+- **åˆ›æ„è®¾è®¡è½¯ä»¶**ï¼šC++å¤„ç†å›¾åƒç®—æ³•ï¼ŒQMLæä¾›æµç•…çš„è®¾è®¡ç”»å¸ƒå’Œå·¥å…·æ 
+- **å¼€å‘è¾…åŠ©å·¥å…·**ï¼šC++è®¿é—®ç³»ç»Ÿèµ„æºï¼ŒQMLå±•ç¤ºçŽ°ä»£åŒ–çš„å¼€å‘è€…ç•Œé¢
+- **æ¸¸æˆå¼€å‘çŽ¯å¢ƒ**ï¼šC++å¤„ç†æ¸¸æˆå¼•æ“Žé€»è¾‘ï¼ŒQMLæä¾›å¯è§†åŒ–ç¼–è¾‘å™¨ç•Œé¢
+- **åŠžå…¬è‡ªåŠ¨åŒ–å·¥å…·**ï¼šC++å¤„ç†æ–‡æ¡£è§£æžï¼ŒQMLæä¾›å“åº”å¼ç¼–è¾‘è§†å›¾
 
-## 9. ÐÔÄÜÓÅ»¯½¨Òé
+## 9. æ€§èƒ½ä¼˜åŒ–å»ºè®®
 
-- Ê¹ÓÃQMLµÄÒì²½¼ÓÔØ»úÖÆ£¨Loader¡¢LazyLoader£©
-- ºÏÀíÊ¹ÓÃListViewµÄ»º´æ»úÖÆ
-- ±ÜÃâÔÚQMLÖÐ½øÐÐ¸´ÔÓ¼ÆËã£¬½«ÆäÒÆÖÁC++¶Ë
-- Ê¹ÓÃQML Profiler·ÖÎöÐÔÄÜÆ¿¾±
-- ÆôÓÃQML±àÒëÆ÷ÓÅ»¯£¨qmlc£©
+- ä½¿ç”¨QMLçš„å¼‚æ­¥åŠ è½½æœºåˆ¶ï¼ˆLoaderã€LazyLoaderï¼‰
+- åˆç†ä½¿ç”¨ListViewçš„ç¼“å­˜æœºåˆ¶
+- é¿å…åœ¨QMLä¸­è¿›è¡Œå¤æ‚è®¡ç®—ï¼Œå°†å…¶ç§»è‡³C++ç«¯
+- ä½¿ç”¨QML Profileråˆ†æžæ€§èƒ½ç“¶é¢ˆ
+- å¯ç”¨QMLç¼–è¯‘å™¨ä¼˜åŒ–ï¼ˆqmlcï¼‰

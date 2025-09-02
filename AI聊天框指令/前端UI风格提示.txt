@@ -1,5 +1,5 @@
-Apple Design��ƻ����ࡢ�ɾ����
-Material UI (�ȸ�Material Design���) 
-Ant Design (���Ͻ������⣬�ʺ���ҵ��Ӧ��) 
-Glassmorphism (ĥɰ�������) 
-Flat Remix����ƽ�������޵Ľ���ɫ��Բ����ƺͼ�����ӰЧ����
+Apple Design（苹果简洁、干净风格）
+Material UI (谷歌Material Design风格) 
+Ant Design (蚂蚁金服组件库，适合企业级应用) 
+Glassmorphism (磨砂玻璃风格) 
+Flat Remix（扁平化、鲜艳的渐变色、圆角设计和简洁的阴影效果）
