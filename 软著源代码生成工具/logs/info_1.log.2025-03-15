@@ -1,3 +1,0 @@
-[00:15:20:835] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting SourceDocxApplication v1.0 using Java 17.0.2 on firebat2023 with PID ??? (C:\Users\Administrator\AppData\Local\Temp\e4j8BBA.tmp_dir1741968918\SourceDocx-1.0.jar started by Administrator in C:\Users\Administrator\Downloads\软著源代码生成工具)
-[00:15:20:849] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:634) - No active profile set, falling back to 1 default profile: "default"
-[00:15:21:550] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started SourceDocxApplication in 1.274 seconds
