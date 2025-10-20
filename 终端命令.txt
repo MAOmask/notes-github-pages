@@ -1,0 +1,6 @@
+调用TRAE-agent:
+
+rorAction SilentlyContinue; $Global:__TraeInjectAgain=1; function prompt { $lastSuccess = $?; "(TraeAI-9) $($ExecutionContext.SessionState.Path.CurrentLocation) [$( if ($lastSuccess -eq $true) { 0 } else { 1 } ):$LASTEXITCODE] $ " }; $env:GIT_PAGER=""; $env:PAGER=""
+
+if ($env:TERM_PROGRAM -eq "vscode") { $Global:__TraeInjectAgain=1; try { . "c:\Users\Administrator\AppData\Local\Programs\Trae CN\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch{} }; Write-Output "[Trae CN] Shell integration is not enabled, try to fix it now."
+
