@@ -1,0 +1,22 @@
+安装命令: 
+apt update -y && apt upgrade -y && apt install sudo curl -y && apt install cron socat -y && bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+
+黑名单：
+rabisu-要实名认证
+lightnode-ip不干净
+
+vps: ipraft
+pc-password: 	3M4n6Q62c49B
+Username:    tr-ipraft
+Password:    tr-ipraft@Xxj
+port: 2053
+webBasePath: /K06msqha2WxLzQA6Kl/ 
+Access URL: https://tr-ipraft.000486000.xyz:2053/K06msqha2WxLzQA6Kl/
+
+
+vps: EniyiSunucum
+Username:    CJhcQwRyuS
+Password:    GzFsbvIIs4
+Port:        2053
+WebBasePath: Reua0Sauj6oxv3P2MC
+Access URL:  https://es.000486000.xyz:2053/Reua0Sauj6oxv3P2MC
