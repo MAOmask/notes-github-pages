@@ -2,7 +2,7 @@
 
 > 使用 Scoop + Mise + Oh My Posh 搭建统一的 Windows 开发环境
 
----
+***
 
 ## 一、安装 Scoop（包管理器）
 
@@ -32,6 +32,18 @@ scoop bucket add extras
 
 # versions: 如果你需要旧版本的软件
 scoop bucket add versions
+
+```
+
+```国内镜像版
+# main: Scoop 官方默认库，包含经过严格审查的开源 CLI 工具
+scoop bucket add main https://gitee.com/scoop-installer/Main
+
+# extras: 包含大量非 CLI 的常用软件
+scoop bucket add extras https://gitee.com/scoop-installer/Extras
+
+# versions: 如果你需要旧版本的软件
+scoop bucket add versions https://gitee.com/scoop-installer/Versions
 ```
 
 ### 1.3 配置多线程下载（可选但推荐）
@@ -46,7 +58,22 @@ scoop config aria2-max-connection-per-server 16
 scoop config aria2-split 16
 ```
 
----
+### 1.4 新电脑快速配置
+
+换了新电脑，如何一键恢复所有 Scoop 软件？
+以 JSON 格式导出已安装的应用程序、存储库（以及可选的配置）：
+
+```
+scoop export > scoop_backup.json
+```
+
+从指定的 JSON 格式文件导入已安装的应用程序、存储库（以及配置）：
+
+```
+scoop import scoop_backup.json
+```
+
+***
 
 ## 二、安装 Mise（运行时版本管理器）
 
@@ -81,7 +108,7 @@ Invoke-Expression (&mise activate pwsh | Out-String)
 . $PROFILE
 ```
 
----
+***
 
 ## 三、使用 Mise 管理项目环境
 
@@ -136,37 +163,37 @@ mise list
 mise doctor
 ```
 
----
+***
 
 ## 四、常用 Mise 命令
 
-| 命令 | 作用 |
-|------|------|
-| `mise use <tool>@<version>` | 当前目录安装指定版本 |
-| `mise use -g <tool>@<version>` | 全局安装 |
-| `mise list` | 查看已安装的工具 |
-| `mise list <tool>` | 查看指定工具的已安装版本 |
-| `mise uninstall <tool>@<version>` | 卸载指定版本 |
-| `mise uninstall <tool>` | 卸载所有版本 |
-| `mise prune` | 清理未使用的版本 |
-| `mise doctor` | 诊断检查 |
-| `mise current` | 查看当前激活的工具 |
+| 命令                                | 作用           |
+| --------------------------------- | ------------ |
+| `mise use <tool>@<version>`       | 当前目录安装指定版本   |
+| `mise use -g <tool>@<version>`    | 全局安装         |
+| `mise list`                       | 查看已安装的工具     |
+| `mise list <tool>`                | 查看指定工具的已安装版本 |
+| `mise uninstall <tool>@<version>` | 卸载指定版本       |
+| `mise uninstall <tool>`           | 卸载所有版本       |
+| `mise prune`                      | 清理未使用的版本     |
+| `mise doctor`                     | 诊断检查         |
+| `mise current`                    | 查看当前激活的工具    |
 
----
+***
 
 ## 五、核心要点
 
 ### 5.1 常见问题与解决方案
 
-| 问题 | 解决方案 |
-|------|---------|
-| Administrator 无法安装 Scoop | 使用 `.\install.ps1 -RunAsAdmin` 参数 |
-| Oh My Posh 用户不需要 PSCompletions | 跳过 `psc` 相关步骤，直接配置 Profile |
-| `mise` 命令找不到 | 确保 `$PROFILE` 中添加了 PATH 和 `mise activate` |
-| `rust` 命令找不到 | 正确命令是 `rustc` 或 `cargo`，不是 `rust` |
-| 多项目版本冲突 | Mise 自动通过 `mise.toml` 切换，不会混乱 |
-| 切换目录后工具版本没变 | 确保已进入包含 `mise.toml` 的目录 |
-| 新安装的命令找不到 | 重启终端或执行 `. $PROFILE` 重新加载配置 |
+| 问题                             | 解决方案                                      |
+| ------------------------------ | ----------------------------------------- |
+| Administrator 无法安装 Scoop       | 使用 `.\install.ps1 -RunAsAdmin` 参数         |
+| Oh My Posh 用户不需要 PSCompletions | 跳过 `psc` 相关步骤，直接配置 Profile                |
+| `mise` 命令找不到                   | 确保 `$PROFILE` 中添加了 PATH 和 `mise activate` |
+| `rust` 命令找不到                   | 正确命令是 `rustc` 或 `cargo`，不是 `rust`         |
+| 多项目版本冲突                        | Mise 自动通过 `mise.toml` 切换，不会混乱             |
+| 切换目录后工具版本没变                    | 确保已进入包含 `mise.toml` 的目录                   |
+| 新安装的命令找不到                      | 重启终端或执行 `. $PROFILE` 重新加载配置               |
 
 ### 5.2 多项目版本管理
 
@@ -204,7 +231,7 @@ cd <repo>
 mise install
 ```
 
----
+***
 
 ## 六、参考资源
 
@@ -213,8 +240,3 @@ mise install
 - [Oh My Posh 文档](https://ohmyposh.dev)
 - [原始教程](https://blog.zsdy.dev/posts/building-a-windows-development-environment-with-scoop-and-mise)
 
----
-
-> 文档版本: 1.0
-> 创建日期: 2026-03-19
-> 适用系统: Windows 10/11 + PowerShell 7+
