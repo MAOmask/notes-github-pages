@@ -1,0 +1,9 @@
+# 3x-ui 面板侧需要对齐的参数（2026-10-29 从 /etc/x-ui/x-ui.db 导出，secret 已脱敏）
+webPort      = 9266
+webBasePath  = /kjJLZrSlkDxHsHwl4RoD7I/
+webCertFile  = /etc/ssl/certs/es.000486000.xyz.pem      # Cloudflare Origin CA
+webKeyFile   = /etc/ssl/private/es.000486000.xyz.key
+secret       = aeqAG2...                                 # 会话密钥，迁移后自动重新生成，无需复制
+# 监听地址：仅 127.0.0.1（不要在面板里改成 0.0.0.0）
+# nginx 侧对应：proxy_pass https://127.0.0.1:9266;
+# basic auth 密码文件：/etc/nginx/.htpasswd_xui，用户名 gdZzv5Ua

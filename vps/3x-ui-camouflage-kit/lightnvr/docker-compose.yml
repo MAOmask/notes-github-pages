@@ -1,0 +1,13 @@
+services:
+  lightnvr:
+    image: ghcr.io/opensensor/lightnvr:latest
+    container_name: lightnvr
+    restart: unless-stopped
+    mem_limit: 512m
+    ports:
+      - "127.0.0.1:20552:8080"
+    volumes:
+      - ./config:/etc/lightnvr:rw
+      - ./data:/var/lib/lightnvr/data:rw
+    environment:
+      - TZ=Asia/Shanghai
